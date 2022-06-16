@@ -1,0 +1,148 @@
+<!-- <ion-header>
+  <ion-toolbar>
+    <ion-title>Newsfeed</ion-title>
+  </ion-toolbar>
+</ion-header> -->
+
+<ion-content [fullscreen]="true" class="ion-padding">
+  <h1>News Feed</h1>
+  <ion-segment value="activity">
+    <ion-segment-button value="activity">
+      <ion-label>Activity</ion-label>
+    </ion-segment-button> 
+    <ion-segment-button value="notifications">
+      <ion-label>Notifications</ion-label>
+    </ion-segment-button>
+  </ion-segment>
+
+  <div class="newsfeed">
+    <ion-item lines="none">
+      <ion-thumbnail slot="start">
+        <img class="profile" src="assets/img/profile1.jpeg"/>
+      </ion-thumbnail>
+      <ion-label>
+       <ion-text class="name">George Cloud</ion-text>
+       <p>Was running 15 minutes ago</p>
+      </ion-label>
+      <ion-button slot="end" fill="clear" color="medium"><ion-icon name="ellipsis-horizontal"></ion-icon></ion-button>
+    </ion-item>
+    <ion-card class="card-info" style="background-image: url('/assets/img/nature.jpeg');">
+      <ion-card-content class="card-container-text">
+          <div class="card-row">
+            <div class="time">
+              <h3>Time</h3>
+              <h2>43:23</h2>
+            </div>
+            <div class="time">
+              <h3>Distance</h3>
+              <div style="display: flex;">
+              <h2>12.31 </h2> <span> km</span>
+            </div>
+            </div>
+            <div class="time">
+              <h3>Calories</h3>
+              <div style="display: flex;">
+                <h2>133.2</h2> <span> kcal</span>
+              </div>
+            </div>
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-item lines="none" class="icons-list">
+      <ion-buttons slot="start">
+        <ion-button><ion-icon name="heart-outline"></ion-icon></ion-button>
+        <ion-button><ion-icon name="chatbox-outline"></ion-icon></ion-button>
+      </ion-buttons>
+      <ion-buttons slot="end" style="display:flex; align-items: flex-end;">
+        <ion-button fill="clear" size="large"><ion-icon name="share-outline"></ion-icon></ion-button>
+      </ion-buttons>
+    </ion-item>
+  </div>
+
+  <div class="newsfeed">
+    <ion-item lines="none">
+      <ion-thumbnail slot="start">
+        <img class="profile" src="assets/img/profile1.jpeg"/>
+      </ion-thumbnail>
+      <ion-label>
+       <ion-text class="name">George Cloud</ion-text>
+       <p>Was running 15 minutes ago</p>
+      </ion-label>
+      <ion-button slot="end" fill="clear" color="medium"><ion-icon name="ellipsis-horizontal"></ion-icon></ion-button>
+    </ion-item>
+    <ion-card class="card-info" style="background-image: url('/assets/img/nature2w.jpeg');">
+      <ion-card-content class="card-container-text">
+          <div class="card-row">
+            <div class="time">
+              <h3>Time</h3>
+              <h2>43:23</h2>
+            </div>
+            <div class="time">
+              <h3>Distance</h3>
+              <div style="display: flex;">
+              <h2>12.31 </h2> <span> km</span>
+            </div>
+            </div>
+            <div class="time">
+              <h3>Calories</h3>
+              <div style="display: flex;">
+                <h2>133.2</h2> <span> kcal</span>
+              </div>
+            </div>
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-item lines="none" class="icons-list">
+      <ion-buttons slot="start">
+        <ion-button><ion-icon name="heart-outline"></ion-icon></ion-button>
+        <ion-button><ion-icon name="chatbox-outline"></ion-icon></ion-button>
+      </ion-buttons>
+      <ion-buttons slot="end" style="display:flex; align-items: flex-end;">
+        <ion-button fill="clear" size="large"><ion-icon name="share-outline"></ion-icon></ion-button>
+      </ion-buttons>
+    </ion-item>
+  </div>
+  <div class="newsfeed">
+    <ion-item lines="none">
+      <ion-thumbnail slot="start">
+        <img class="profile" src="assets/img/profile1.jpeg"/>
+      </ion-thumbnail>
+      <ion-label>
+       <ion-text class="name">George Cloud</ion-text>
+       <p>Was running 15 minutes ago</p>
+      </ion-label>
+      <ion-button slot="end" fill="clear" color="medium"><ion-icon name="ellipsis-horizontal"></ion-icon></ion-button>
+    </ion-item>
+    <ion-card class="card-info" style="background-image: url('/assets/img/nature2w.jpeg');">
+      <ion-card-content class="card-container-text">
+          <div class="card-row">
+            <div class="time">
+              <h3>Time</h3>
+              <h2>43:23</h2>
+            </div>
+            <div class="time">
+              <h3>Distance</h3>
+              <div style="display: flex;">
+              <h2>12.31 </h2> <span> km</span>
+            </div>
+            </div>
+            <div class="time">
+              <h3>Calories</h3>
+              <div style="display: flex;">
+                <h2>133.2</h2> <span> kcal</span>
+              </div>
+            </div>
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-item lines="none" class="icons-list">
+      <ion-buttons slot="start">
+        <ion-button><ion-icon name="heart-outline"></ion-icon></ion-button>
+        <ion-button><ion-icon name="chatbox-outline"></ion-icon></ion-button>
+      </ion-buttons>
+      <ion-buttons slot="end" style="display:flex; align-items: flex-end;">
+        <ion-button fill="clear" size="large"><ion-icon name="share-outline"></ion-icon></ion-button>
+      </ion-buttons>
+    </ion-item>
+  </div>
+</ion-content>
